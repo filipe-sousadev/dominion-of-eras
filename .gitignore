@@ -1,0 +1,12 @@
+# gerado pelo Godot
+.godot/
+*.translation
+# compilações
+build/
+export/linux/
+export/android/
+export/arch/pkg/
+export/arch/src/
+export/arch/*.pkg.tar.zst
+# capturas de teste
+shots/

@@ -1,0 +1,30 @@
+# Arch Linux package for Dominion of Eras (built from ../linux by ../build_linux.sh)
+pkgname=dominion-of-eras
+pkgver=1.0
+pkgrel=1
+pkgdesc="Original real-time strategy game: gather, claim territories, advance through eras, conquer"
+arch=('x86_64')
+license=('custom')
+depends=('libglvnd' 'libxcursor' 'libxinerama' 'libxi' 'libxrandr' 'alsa-lib')
+options=('!strip' '!debug')
+source=()
+
+package() {
+  local src="$startdir/../linux"
+  install -Dm755 "$src/dominion-of-eras.x86_64" "$pkgdir/opt/dominion-of-eras/dominion-of-eras.x86_64"
+  install -Dm644 "$src/dominion-of-eras.pck" "$pkgdir/opt/dominion-of-eras/dominion-of-eras.pck"
+  install -Dm644 "$src/dominion-of-eras.png" "$pkgdir/usr/share/pixmaps/dominion-of-eras.png"
+  install -dm755 "$pkgdir/usr/bin"
+  printf '#!/bin/sh\nexec /opt/dominion-of-eras/dominion-of-eras.x86_64 "$@"\n' > "$pkgdir/usr/bin/dominion-of-eras"
+  chmod 755 "$pkgdir/usr/bin/dominion-of-eras"
+  mkdir -p "$pkgdir/usr/share/applications"
+  cat > "$pkgdir/usr/share/applications/dominion-of-eras.desktop" <<DESKTOP
+[Desktop Entry]
+Type=Application
+Name=Dominion of Eras
+Comment=Real-time strategy
+Exec=dominion-of-eras
+Icon=dominion-of-eras
+Categories=Game;StrategyGame;
+DESKTOP
+}

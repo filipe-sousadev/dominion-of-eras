@@ -1,0 +1,1272 @@
+{
+  "version": 1,
+  "values": [
+    {
+      "name": "speed scale (panel speed to m/s)",
+      "group": "movement",
+      "value": 0.3,
+      "unit": "m/s per point",
+      "estimated": true
+    },
+    {
+      "name": "citizen speed",
+      "group": "movement",
+      "value": 11,
+      "unit": "panel points",
+      "source": "screenshot reference/picture-8.jpg (unit panel / resource column)"
+    },
+    {
+      "name": "citizen hit points",
+      "group": "units",
+      "value": 30,
+      "unit": "hp",
+      "source": "screenshot reference/picture-8.jpg (unit panel / resource column)"
+    },
+    {
+      "name": "citizen attack",
+      "group": "units",
+      "value": 5,
+      "unit": "damage",
+      "source": "screenshot reference/picture-8.jpg (unit panel / resource column)"
+    },
+    {
+      "name": "spearman hit points",
+      "group": "units",
+      "value": 60,
+      "unit": "hp",
+      "estimated": true
+    },
+    {
+      "name": "spearman attack",
+      "group": "units",
+      "value": 6,
+      "unit": "damage",
+      "estimated": true
+    },
+    {
+      "name": "spearman range",
+      "group": "units",
+      "value": "melee",
+      "estimated": true
+    },
+    {
+      "name": "spearman attack interval",
+      "group": "units",
+      "value": 1.5,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "spearman speed",
+      "group": "movement",
+      "value": 11,
+      "unit": "panel points",
+      "estimated": true
+    },
+    {
+      "name": "spearman armor",
+      "group": "units",
+      "value": 1,
+      "estimated": true
+    },
+    {
+      "name": "spearman cost",
+      "group": "units",
+      "value": "30 food 20 wood",
+      "estimated": true
+    },
+    {
+      "name": "spearman train time",
+      "group": "units",
+      "value": 15,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "spearman era",
+      "group": "units",
+      "value": 1,
+      "estimated": true
+    },
+    {
+      "name": "swordsman hit points",
+      "group": "units",
+      "value": 80,
+      "unit": "hp",
+      "estimated": true
+    },
+    {
+      "name": "swordsman attack",
+      "group": "units",
+      "value": 9,
+      "unit": "damage",
+      "estimated": true
+    },
+    {
+      "name": "swordsman range",
+      "group": "units",
+      "value": "melee",
+      "estimated": true
+    },
+    {
+      "name": "swordsman attack interval",
+      "group": "units",
+      "value": 1.5,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "swordsman speed",
+      "group": "movement",
+      "value": 10,
+      "unit": "panel points",
+      "estimated": true
+    },
+    {
+      "name": "swordsman armor",
+      "group": "units",
+      "value": 2,
+      "estimated": true
+    },
+    {
+      "name": "swordsman cost",
+      "group": "units",
+      "value": "40 food 30 gold",
+      "estimated": true
+    },
+    {
+      "name": "swordsman train time",
+      "group": "units",
+      "value": 18,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "swordsman era",
+      "group": "units",
+      "value": 1,
+      "estimated": true
+    },
+    {
+      "name": "archer hit points",
+      "group": "units",
+      "value": 45,
+      "unit": "hp",
+      "estimated": true
+    },
+    {
+      "name": "archer attack",
+      "group": "units",
+      "value": 7,
+      "unit": "damage",
+      "estimated": true
+    },
+    {
+      "name": "archer range",
+      "group": "units",
+      "value": 12,
+      "unit": "m",
+      "estimated": true
+    },
+    {
+      "name": "archer attack interval",
+      "group": "units",
+      "value": 2.0,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "archer speed",
+      "group": "movement",
+      "value": 11,
+      "unit": "panel points",
+      "estimated": true
+    },
+    {
+      "name": "archer armor",
+      "group": "units",
+      "value": 0,
+      "estimated": true
+    },
+    {
+      "name": "archer cost",
+      "group": "units",
+      "value": "30 wood 30 gold",
+      "estimated": true
+    },
+    {
+      "name": "archer train time",
+      "group": "units",
+      "value": 16,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "archer era",
+      "group": "units",
+      "value": 1,
+      "estimated": true
+    },
+    {
+      "name": "cavalry hit points",
+      "group": "units",
+      "value": 110,
+      "unit": "hp",
+      "estimated": true
+    },
+    {
+      "name": "cavalry attack",
+      "group": "units",
+      "value": 10,
+      "unit": "damage",
+      "estimated": true
+    },
+    {
+      "name": "cavalry range",
+      "group": "units",
+      "value": "melee",
+      "estimated": true
+    },
+    {
+      "name": "cavalry attack interval",
+      "group": "units",
+      "value": 1.7,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "cavalry speed",
+      "group": "movement",
+      "value": 16,
+      "unit": "panel points",
+      "estimated": true
+    },
+    {
+      "name": "cavalry armor",
+      "group": "units",
+      "value": 2,
+      "estimated": true
+    },
+    {
+      "name": "cavalry cost",
+      "group": "units",
+      "value": "60 food 50 gold",
+      "estimated": true
+    },
+    {
+      "name": "cavalry train time",
+      "group": "units",
+      "value": 22,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "cavalry era",
+      "group": "units",
+      "value": 2,
+      "estimated": true
+    },
+    {
+      "name": "catapult hit points",
+      "group": "units",
+      "value": 120,
+      "unit": "hp",
+      "estimated": true
+    },
+    {
+      "name": "catapult attack",
+      "group": "units",
+      "value": 10,
+      "unit": "damage",
+      "estimated": true
+    },
+    {
+      "name": "catapult range",
+      "group": "units",
+      "value": 16,
+      "unit": "m",
+      "estimated": true
+    },
+    {
+      "name": "catapult attack interval",
+      "group": "units",
+      "value": 4.0,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "catapult speed",
+      "group": "movement",
+      "value": 7,
+      "unit": "panel points",
+      "estimated": true
+    },
+    {
+      "name": "catapult armor",
+      "group": "units",
+      "value": 3,
+      "estimated": true
+    },
+    {
+      "name": "catapult cost",
+      "group": "units",
+      "value": "100 wood 80 gold",
+      "estimated": true
+    },
+    {
+      "name": "catapult train time",
+      "group": "units",
+      "value": 30,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "catapult era",
+      "group": "units",
+      "value": 3,
+      "estimated": true
+    },
+    {
+      "name": "citizen cost",
+      "group": "units",
+      "value": "50 food",
+      "estimated": true
+    },
+    {
+      "name": "citizen train time",
+      "group": "units",
+      "value": 12,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "spearman bonus vs cavalry",
+      "group": "combat",
+      "value": 3.0,
+      "unit": "x",
+      "estimated": true
+    },
+    {
+      "name": "swordsman bonus vs infantry",
+      "group": "combat",
+      "value": 1.5,
+      "unit": "x",
+      "estimated": true
+    },
+    {
+      "name": "archer bonus vs infantry",
+      "group": "combat",
+      "value": 1.5,
+      "unit": "x",
+      "estimated": true
+    },
+    {
+      "name": "cavalry bonus vs archers and siege",
+      "group": "combat",
+      "value": 2.0,
+      "unit": "x",
+      "estimated": true
+    },
+    {
+      "name": "catapult bonus vs buildings",
+      "group": "combat",
+      "value": 4.0,
+      "unit": "x",
+      "estimated": true
+    },
+    {
+      "name": "catapult splash radius",
+      "group": "combat",
+      "value": 2.0,
+      "unit": "m",
+      "estimated": true
+    },
+    {
+      "name": "damage formula",
+      "group": "combat",
+      "value": "attack x era bonus x crown bonus x class bonus - armor (min 1)",
+      "estimated": true
+    },
+    {
+      "name": "city center hit points",
+      "group": "buildings",
+      "value": 1500,
+      "unit": "hp",
+      "estimated": true
+    },
+    {
+      "name": "city center cost",
+      "group": "buildings",
+      "value": "300 wood 200 stone",
+      "estimated": true
+    },
+    {
+      "name": "city center build time",
+      "group": "buildings",
+      "value": 60,
+      "unit": "s (one builder)",
+      "estimated": true
+    },
+    {
+      "name": "house hit points",
+      "group": "buildings",
+      "value": 300,
+      "unit": "hp",
+      "estimated": true
+    },
+    {
+      "name": "house cost",
+      "group": "buildings",
+      "value": "50 wood",
+      "estimated": true
+    },
+    {
+      "name": "house build time",
+      "group": "buildings",
+      "value": 20,
+      "unit": "s (one builder)",
+      "estimated": true
+    },
+    {
+      "name": "farm hit points",
+      "group": "buildings",
+      "value": 200,
+      "unit": "hp",
+      "estimated": true
+    },
+    {
+      "name": "farm cost",
+      "group": "buildings",
+      "value": "60 wood",
+      "estimated": true
+    },
+    {
+      "name": "farm build time",
+      "group": "buildings",
+      "value": 15,
+      "unit": "s (one builder)",
+      "estimated": true
+    },
+    {
+      "name": "storehouse hit points",
+      "group": "buildings",
+      "value": 400,
+      "unit": "hp",
+      "estimated": true
+    },
+    {
+      "name": "storehouse cost",
+      "group": "buildings",
+      "value": "80 wood",
+      "estimated": true
+    },
+    {
+      "name": "storehouse build time",
+      "group": "buildings",
+      "value": 20,
+      "unit": "s (one builder)",
+      "estimated": true
+    },
+    {
+      "name": "barracks hit points",
+      "group": "buildings",
+      "value": 800,
+      "unit": "hp",
+      "estimated": true
+    },
+    {
+      "name": "barracks cost",
+      "group": "buildings",
+      "value": "150 wood",
+      "estimated": true
+    },
+    {
+      "name": "barracks build time",
+      "group": "buildings",
+      "value": 35,
+      "unit": "s (one builder)",
+      "estimated": true
+    },
+    {
+      "name": "archery range hit points",
+      "group": "buildings",
+      "value": 700,
+      "unit": "hp",
+      "estimated": true
+    },
+    {
+      "name": "archery range cost",
+      "group": "buildings",
+      "value": "150 wood",
+      "estimated": true
+    },
+    {
+      "name": "archery range build time",
+      "group": "buildings",
+      "value": 35,
+      "unit": "s (one builder)",
+      "estimated": true
+    },
+    {
+      "name": "stable hit points",
+      "group": "buildings",
+      "value": 800,
+      "unit": "hp",
+      "estimated": true
+    },
+    {
+      "name": "stable cost",
+      "group": "buildings",
+      "value": "175 wood 50 gold",
+      "estimated": true
+    },
+    {
+      "name": "stable build time",
+      "group": "buildings",
+      "value": 40,
+      "unit": "s (one builder)",
+      "estimated": true
+    },
+    {
+      "name": "siege workshop hit points",
+      "group": "buildings",
+      "value": 800,
+      "unit": "hp",
+      "estimated": true
+    },
+    {
+      "name": "siege workshop cost",
+      "group": "buildings",
+      "value": "200 wood 100 stone",
+      "estimated": true
+    },
+    {
+      "name": "siege workshop build time",
+      "group": "buildings",
+      "value": 45,
+      "unit": "s (one builder)",
+      "estimated": true
+    },
+    {
+      "name": "university hit points",
+      "group": "buildings",
+      "value": 900,
+      "unit": "hp",
+      "estimated": true
+    },
+    {
+      "name": "university cost",
+      "group": "buildings",
+      "value": "150 wood 100 stone",
+      "estimated": true
+    },
+    {
+      "name": "university build time",
+      "group": "buildings",
+      "value": 45,
+      "unit": "s (one builder)",
+      "estimated": true
+    },
+    {
+      "name": "tower hit points",
+      "group": "buildings",
+      "value": 600,
+      "unit": "hp",
+      "estimated": true
+    },
+    {
+      "name": "tower cost",
+      "group": "buildings",
+      "value": "75 wood 100 stone",
+      "estimated": true
+    },
+    {
+      "name": "tower build time",
+      "group": "buildings",
+      "value": 30,
+      "unit": "s (one builder)",
+      "estimated": true
+    },
+    {
+      "name": "city center arrows",
+      "group": "buildings",
+      "value": "4 damage, 14 m, every 2 s",
+      "estimated": true
+    },
+    {
+      "name": "tower arrows",
+      "group": "buildings",
+      "value": "8 damage, 16 m, every 2 s",
+      "estimated": true
+    },
+    {
+      "name": "housing per city center or house",
+      "group": "economy",
+      "value": 10,
+      "unit": "population",
+      "estimated": true
+    },
+    {
+      "name": "population limit",
+      "group": "economy",
+      "value": 200,
+      "estimated": true
+    },
+    {
+      "name": "starting food",
+      "group": "economy",
+      "value": 200,
+      "source": "screenshot reference/picture-8.jpg (unit panel / resource column)"
+    },
+    {
+      "name": "starting wood",
+      "group": "economy",
+      "value": 200,
+      "source": "screenshot reference/picture-8.jpg (unit panel / resource column)"
+    },
+    {
+      "name": "starting stone",
+      "group": "economy",
+      "value": 100,
+      "source": "screenshot reference/picture-8.jpg (unit panel / resource column)"
+    },
+    {
+      "name": "starting gold",
+      "group": "economy",
+      "value": 100,
+      "source": "screenshot reference/picture-8.jpg (unit panel / resource column)"
+    },
+    {
+      "name": "starting tech",
+      "group": "economy",
+      "value": 100,
+      "source": "screenshot reference/picture-8.jpg (unit panel / resource column)"
+    },
+    {
+      "name": "starting citizens",
+      "group": "economy",
+      "value": 6,
+      "source": "screenshot reference/picture-8.jpg (unit panel / resource column) shows population 6"
+    },
+    {
+      "name": "gather rate berries",
+      "group": "economy",
+      "value": 0.8,
+      "unit": "per second per citizen",
+      "estimated": true
+    },
+    {
+      "name": "gather rate cattle",
+      "group": "economy",
+      "value": 1.0,
+      "unit": "per second per citizen",
+      "estimated": true
+    },
+    {
+      "name": "gather rate farm",
+      "group": "economy",
+      "value": 0.6,
+      "unit": "per second per citizen",
+      "estimated": true
+    },
+    {
+      "name": "gather rate wood",
+      "group": "economy",
+      "value": 0.7,
+      "unit": "per second per citizen",
+      "estimated": true
+    },
+    {
+      "name": "gather rate stone",
+      "group": "economy",
+      "value": 0.5,
+      "unit": "per second per citizen",
+      "estimated": true
+    },
+    {
+      "name": "gather rate gold",
+      "group": "economy",
+      "value": 0.5,
+      "unit": "per second per citizen",
+      "estimated": true
+    },
+    {
+      "name": "gather rate tech at university",
+      "group": "economy",
+      "value": 0.4,
+      "unit": "per second per citizen",
+      "estimated": true
+    },
+    {
+      "name": "carry load",
+      "group": "economy",
+      "value": 10,
+      "unit": "units",
+      "estimated": true
+    },
+    {
+      "name": "university scholars",
+      "group": "economy",
+      "value": 5,
+      "unit": "max",
+      "estimated": true
+    },
+    {
+      "name": "farmers per farm",
+      "group": "economy",
+      "value": 3,
+      "unit": "max",
+      "estimated": true
+    },
+    {
+      "name": "era 2 cost",
+      "group": "eras",
+      "value": "300 food 100 gold 150 tech",
+      "estimated": true
+    },
+    {
+      "name": "era 2 research time",
+      "group": "eras",
+      "value": 40,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "era 3 cost",
+      "group": "eras",
+      "value": "500 food 250 gold 300 tech",
+      "estimated": true
+    },
+    {
+      "name": "era 3 research time",
+      "group": "eras",
+      "value": 60,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "era 4 cost",
+      "group": "eras",
+      "value": "800 food 400 gold 500 tech",
+      "estimated": true
+    },
+    {
+      "name": "era 4 research time",
+      "group": "eras",
+      "value": 80,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "era 5 cost",
+      "group": "eras",
+      "value": "1200 food 600 gold 800 tech",
+      "estimated": true
+    },
+    {
+      "name": "era 5 research time",
+      "group": "eras",
+      "value": 100,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "eras in this version",
+      "group": "eras",
+      "value": 5,
+      "estimated": true
+    },
+    {
+      "name": "military bonus per era",
+      "group": "eras",
+      "value": 10,
+      "unit": "% hp and attack",
+      "estimated": true
+    },
+    {
+      "name": "gather bonus per era",
+      "group": "eras",
+      "value": 5,
+      "unit": "%",
+      "estimated": true
+    },
+    {
+      "name": "month length",
+      "group": "seasons",
+      "value": 54,
+      "unit": "s",
+      "source": "derived from game clocks in reference/picture-8.jpg (June 0:23), picture-60.jpg (October 14:56), picture-130.jpg (February 29:06)"
+    },
+    {
+      "name": "starting month",
+      "group": "seasons",
+      "value": "June",
+      "source": "screenshot reference/picture-8.jpg (unit panel / resource column) (June at 0:23)"
+    },
+    {
+      "name": "winter months",
+      "group": "seasons",
+      "value": "December-February",
+      "source": "snow seen in reference/picture-130.jpg (February)"
+    },
+    {
+      "name": "winter movement",
+      "group": "seasons",
+      "value": 0.909,
+      "unit": "x",
+      "source": "reference/picture-143.jpg: unit speed shown as 11 (-1) in February"
+    },
+    {
+      "name": "winter food gathering",
+      "group": "seasons",
+      "value": 0.75,
+      "unit": "x",
+      "estimated": true
+    },
+    {
+      "name": "capture units",
+      "group": "territory",
+      "value": "infantry and cavalry",
+      "estimated": true
+    },
+    {
+      "name": "capture radius",
+      "group": "territory",
+      "value": 10,
+      "unit": "m",
+      "estimated": true
+    },
+    {
+      "name": "loyalty loss per capturer",
+      "group": "territory",
+      "value": 2,
+      "unit": "% per s",
+      "estimated": true
+    },
+    {
+      "name": "loyalty loss max",
+      "group": "territory",
+      "value": 8,
+      "unit": "% per s",
+      "estimated": true
+    },
+    {
+      "name": "loyalty regain",
+      "group": "territory",
+      "value": 1,
+      "unit": "% per s",
+      "estimated": true
+    },
+    {
+      "name": "loyalty messages in 10% steps",
+      "group": "territory",
+      "value": true,
+      "source": "message 'loyalty has faded to 90%' in reference/picture-130.jpg"
+    },
+    {
+      "name": "one city center per territory",
+      "group": "territory",
+      "value": true,
+      "source": "territory borders and 'seized control of' messages in the reference pictures"
+    },
+    {
+      "name": "other buildings only in own territory",
+      "group": "territory",
+      "value": true,
+      "estimated": true
+    },
+    {
+      "name": "territories on the map",
+      "group": "territory",
+      "value": 13,
+      "estimated": true
+    },
+    {
+      "name": "military crown",
+      "group": "crowns",
+      "value": "first to 25 kills: +10% attack",
+      "estimated": true
+    },
+    {
+      "name": "economic crown",
+      "group": "crowns",
+      "value": "first to gather 3000: +10% gathering",
+      "estimated": true
+    },
+    {
+      "name": "imperial crown",
+      "group": "crowns",
+      "value": "first to Bronze Era: +15% build and train speed",
+      "estimated": true
+    },
+    {
+      "name": "victory",
+      "group": "modes",
+      "value": "conquest: last player with a City Center or citizens wins",
+      "source": "Game Type 'Conquest' with Sole Survivor in reference/picture-3.jpg"
+    },
+    {
+      "name": "opponents",
+      "group": "modes",
+      "value": "1 to 3 computer players",
+      "estimated": true
+    },
+    {
+      "name": "camera field of view",
+      "group": "camera",
+      "value": 40,
+      "unit": "degrees",
+      "estimated": true
+    },
+    {
+      "name": "camera pitch",
+      "group": "camera",
+      "value": 46,
+      "unit": "degrees",
+      "estimated": true
+    },
+    {
+      "name": "camera distance",
+      "group": "camera",
+      "value": "25 to 110 (start 68)",
+      "unit": "m",
+      "estimated": true
+    },
+    {
+      "name": "select",
+      "group": "controls",
+      "value": "left click / tap; drag box (touch: Box select button)",
+      "estimated": true
+    },
+    {
+      "name": "order",
+      "group": "controls",
+      "value": "right click / tap with units selected",
+      "estimated": true
+    },
+    {
+      "name": "camera keys",
+      "group": "controls",
+      "value": "WASD or arrows, screen edges, wheel zoom, Q/E rotate; touch drag and pinch",
+      "estimated": true
+    },
+    {
+      "name": "hotkeys",
+      "group": "controls",
+      "value": "H city center, . idle citizen, Ctrl+0-9 groups, Del remove, Space last alert, P pause, Esc menu",
+      "estimated": true
+    },
+    {
+      "name": "AI Easy (Fácil) gather multiplier",
+      "group": "ai",
+      "value": 0.75,
+      "unit": "x",
+      "estimated": true
+    },
+    {
+      "name": "AI Easy (Fácil) first attack",
+      "group": "ai",
+      "value": 660,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "AI Easy (Fácil) first wave",
+      "group": "ai",
+      "value": 5,
+      "unit": "units",
+      "estimated": true
+    },
+    {
+      "name": "AI Easy (Fácil) wave growth",
+      "group": "ai",
+      "value": 2,
+      "unit": "units per wave, max 14",
+      "estimated": true
+    },
+    {
+      "name": "AI Easy (Fácil) time between waves",
+      "group": "ai",
+      "value": 210,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "AI Easy (Fácil) citizens",
+      "group": "ai",
+      "value": 16,
+      "estimated": true
+    },
+    {
+      "name": "AI Easy (Fácil) decision interval",
+      "group": "ai",
+      "value": 2.0,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "AI Easy (Fácil) City Centers wanted",
+      "group": "ai",
+      "value": 1,
+      "estimated": true
+    },
+    {
+      "name": "AI Easy (Fácil) towers per town",
+      "group": "ai",
+      "value": 0,
+      "estimated": true
+    },
+    {
+      "name": "AI Normal (Normal) gather multiplier",
+      "group": "ai",
+      "value": 1.0,
+      "unit": "x",
+      "estimated": true
+    },
+    {
+      "name": "AI Normal (Normal) first attack",
+      "group": "ai",
+      "value": 420,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "AI Normal (Normal) first wave",
+      "group": "ai",
+      "value": 9,
+      "unit": "units",
+      "estimated": true
+    },
+    {
+      "name": "AI Normal (Normal) wave growth",
+      "group": "ai",
+      "value": 3,
+      "unit": "units per wave, max 28",
+      "estimated": true
+    },
+    {
+      "name": "AI Normal (Normal) time between waves",
+      "group": "ai",
+      "value": 160,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "AI Normal (Normal) citizens",
+      "group": "ai",
+      "value": 24,
+      "estimated": true
+    },
+    {
+      "name": "AI Normal (Normal) decision interval",
+      "group": "ai",
+      "value": 1.0,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "AI Normal (Normal) City Centers wanted",
+      "group": "ai",
+      "value": 2,
+      "estimated": true
+    },
+    {
+      "name": "AI Normal (Normal) towers per town",
+      "group": "ai",
+      "value": 1,
+      "estimated": true
+    },
+    {
+      "name": "AI Hard (Difícil) gather multiplier",
+      "group": "ai",
+      "value": 1.1,
+      "unit": "x",
+      "estimated": true
+    },
+    {
+      "name": "AI Hard (Difícil) first attack",
+      "group": "ai",
+      "value": 330,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "AI Hard (Difícil) first wave",
+      "group": "ai",
+      "value": 12,
+      "unit": "units",
+      "estimated": true
+    },
+    {
+      "name": "AI Hard (Difícil) wave growth",
+      "group": "ai",
+      "value": 4,
+      "unit": "units per wave, max 36",
+      "estimated": true
+    },
+    {
+      "name": "AI Hard (Difícil) time between waves",
+      "group": "ai",
+      "value": 135,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "AI Hard (Difícil) citizens",
+      "group": "ai",
+      "value": 30,
+      "estimated": true
+    },
+    {
+      "name": "AI Hard (Difícil) decision interval",
+      "group": "ai",
+      "value": 1.0,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "AI Hard (Difícil) City Centers wanted",
+      "group": "ai",
+      "value": 3,
+      "estimated": true
+    },
+    {
+      "name": "AI Hard (Difícil) towers per town",
+      "group": "ai",
+      "value": 2,
+      "estimated": true
+    },
+    {
+      "name": "AI Brutal (Brutal) gather multiplier",
+      "group": "ai",
+      "value": 1.25,
+      "unit": "x",
+      "estimated": true
+    },
+    {
+      "name": "AI Brutal (Brutal) first attack",
+      "group": "ai",
+      "value": 260,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "AI Brutal (Brutal) first wave",
+      "group": "ai",
+      "value": 14,
+      "unit": "units",
+      "estimated": true
+    },
+    {
+      "name": "AI Brutal (Brutal) wave growth",
+      "group": "ai",
+      "value": 5,
+      "unit": "units per wave, max 46",
+      "estimated": true
+    },
+    {
+      "name": "AI Brutal (Brutal) time between waves",
+      "group": "ai",
+      "value": 110,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "AI Brutal (Brutal) citizens",
+      "group": "ai",
+      "value": 36,
+      "estimated": true
+    },
+    {
+      "name": "AI Brutal (Brutal) decision interval",
+      "group": "ai",
+      "value": 0.5,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "AI Brutal (Brutal) City Centers wanted",
+      "group": "ai",
+      "value": 4,
+      "estimated": true
+    },
+    {
+      "name": "AI Brutal (Brutal) towers per town",
+      "group": "ai",
+      "value": 3,
+      "estimated": true
+    },
+    {
+      "name": "AI Insane (Insano) gather multiplier",
+      "group": "ai",
+      "value": 1.5,
+      "unit": "x",
+      "estimated": true
+    },
+    {
+      "name": "AI Insane (Insano) first attack",
+      "group": "ai",
+      "value": 200,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "AI Insane (Insano) first wave",
+      "group": "ai",
+      "value": 16,
+      "unit": "units",
+      "estimated": true
+    },
+    {
+      "name": "AI Insane (Insano) wave growth",
+      "group": "ai",
+      "value": 6,
+      "unit": "units per wave, max 60",
+      "estimated": true
+    },
+    {
+      "name": "AI Insane (Insano) time between waves",
+      "group": "ai",
+      "value": 90,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "AI Insane (Insano) citizens",
+      "group": "ai",
+      "value": 44,
+      "estimated": true
+    },
+    {
+      "name": "AI Insane (Insano) decision interval",
+      "group": "ai",
+      "value": 0.5,
+      "unit": "s",
+      "estimated": true
+    },
+    {
+      "name": "AI Insane (Insano) City Centers wanted",
+      "group": "ai",
+      "value": 5,
+      "estimated": true
+    },
+    {
+      "name": "AI Insane (Insano) towers per town",
+      "group": "ai",
+      "value": 4,
+      "estimated": true
+    },
+    {
+      "name": "AI worker split (base, then adjusted to what it plans to buy)",
+      "group": "ai",
+      "value": "food 40%, wood 32%, gold 14%, stone 7%, tech 7%",
+      "estimated": true
+    },
+    {
+      "name": "AI tactics by level",
+      "group": "ai",
+      "value": "Normal+: counters army mix, regroups before marching, workers flee raids; Hard+: retreats from lost fights, focus fire, attacks weakest rival; Brutal+: cavalry raids on workers, reinforces winning attacks",
+      "estimated": true
+    }
+  ]
+}
